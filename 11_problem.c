@@ -1,0 +1,16 @@
+#include <stdio.h>
+int main()
+{
+
+    for (int i = 1900; i <= 2000; i++)
+    {
+
+        if (i % 4 == 0 && i % 100 != 0 || i % 400 == 0)
+
+        {
+            printf("%d is a leap year \n", i);
+        }
+    }
+
+    return 0;
+}
